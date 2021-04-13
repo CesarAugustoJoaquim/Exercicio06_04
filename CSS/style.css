@@ -21,8 +21,10 @@ div.container{
 	margin: 0 auto;
 }
 
-img,figure,video,embed
-{
+img,
+figure,
+video,
+embed{
 	max-width: 100%;
 }
 
@@ -33,7 +35,87 @@ header{
 	margin-bottom: 36px;
 }
 
-img.menu{
+img.marca{
 	float: left;
 	width: 234px;
+}
+
+nav{
+	float: right;
+	width: 840px;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+nav li a{
+	color: #999;
+}
+
+div.banner{
+	background: url('../img/banner.jpg');
+	height: 450px;
+	margin-bottom: 48px;
+	position: relative;
+}
+
+div.caixa{
+	position: absolute;
+	top: 40px;
+	background: rgba(0,0,0,0.6);
+	width: 480px;
+	padding: 24px 4px 24px 40px; 
+	display: center;
+}
+
+h1{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.destaque{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 200;
+}
+
+div.coluna{
+	width: 264px;
+	float: left;
+	margin-right: 24px;
+}
+
+div.coluna:last-child{
+	margin-right: 0;
+}
+
+div.coluna p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+footer{
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+p.footer{
+	font-size: 10px;
+	margin-bottom: 0;
 }
